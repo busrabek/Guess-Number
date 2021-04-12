@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(number-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-size: 2150px 1050px;
+    position: relative;
+    top: 250px; */
+
+}
+
+
+h1 {
+    color: red;
+    text-align: center;
+    margin: 4rem 0 2rem 0;
+}
+
+
+
+#userInput {
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px red;
+    outline: none;
+    font-size: 1.3rem;
+}
+
+#checkButton {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px red;
+    background-color:white;
+    border: none;
+    font-size: 1.3rem;
+    outline: none;
+    cursor: pointer;
+}
+
+
+#hint {
+    font-size: 20px;
+    margin: 50px;
+}
+
+#attemptNumber {
+    font-size: 15px;
+    margin: 50px;
+}
+
+
+.header {
+    margin-top: 250px;
+}
+
+.content {
+    padding: 50px;
+}
