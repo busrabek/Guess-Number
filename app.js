@@ -38,7 +38,7 @@ function checkNumber() {
 
     // if guess number matched
     if (number == guessedNumber) {
-        alert("You are winner 💥 you guest in" + attempts + "times!")
+        alert("You are winner 💥 you guest in " + attempts + " times!")
 
         // Play again
         let nextGame = confirm("Do you wanna play again?");
